@@ -6,6 +6,9 @@
   <title>COACHTECH</title>
   <link rel="stylesheet" href="css/reset.css" />
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 </head>
 <body>
   <header class="header">
@@ -25,12 +28,23 @@
   </header>
   <div class="top">
     <img class="top_img" src="img/img/firstview.jpg" alt="top">
-    <h1 class="line">Commit to the growth <br>for everyone</h1>
-    <p>全ての人の成長にコミットする</p>
-    <p>Educational Technology Company<br>estra inc since 2019</p>
+    <h1 class="line">Commit to the <span>growth</span> <br>for everyone</h1>
+    <p class="lead">全ての人の<span>成長</span>にコミットする</p>
+    <p class="word">Educational Technology Company<br>estra inc since 2019</p>
   </div>
   <div class="list">
-    <ul>
+    <p class="text">News</p>
+    <h2 class="text">新着情報</h2>
+      <li>
+        <div class="day"></div>
+        <div class="label"></div>
+        <div class="text"></div>
+      </li>
+      <li>
+        <div class="day">2021/1/1</div>
+        <div class="label">ニュース</div>
+        <div class="text">COACHTECHのサービスが開始されました。</div>
+      </li>
       <li>
         <div class="day">2021/1/1</div>
         <div class="label">ニュース</div>
@@ -48,49 +62,59 @@
       </li>
     </ul>
   </div>
-  <div id="container">
+  <div class="container">
+    <p class="text">Service</p>
+    <h2 class="text">サービス内容</h2>
     <div class="box1">
       <img src="img/img/service__first.svg" alt="box">
       <div class="text2">教育事業</div>
       <div class="text3">サンプルテキストがここには入ります。サンプルテキストがここには入ります。サンプルテキストがここには入ります。</div>
     </div>
-    <div class="box2">box2</div>
-    <div class="box3">box3</div>
+    <div class="box2">
+      <img src="img/img/service__first.svg" alt="box">
+      <div class="text2">教育事業</div>
+      <div class="text3">サンプルテキストがここには入ります。<br>サンプルテキストがここには入ります。<br>サンプルテキストがここには入ります。</div>
+    </div>
+    <div class="box3">
+      <img src="img/img/service__first.svg" alt="box">
+      <div class="text2">教育事業</div>
+      <div class="text3">サンプルテキストがここには入ります。<br>サンプルテキストがここには入ります。<br>サンプルテキストがここには入ります。</div>
+    </div>
   </div>
   <div class="card">
-    <div class="card__img">
+    <div class="card__content">
+      <div class="card__img">
       <img src="img/img/blog__first.jpg" alt="blog">
       <p>blog</p>
+      </div>
+      <h2 class="card__content-ttl">プログラミング学習の勉強方法を特集。挫折しない秘訣とは？</h2>
+      <div class="card__content-tag">
+      <p class="card__content-tag-item card__content-tag-item--last">2021/01/01</p>
+      <p class="card__content-tag-item">#COACHTECH</p>
     </div>
-        <div class="card__content">
-          <h2 class="card__content-ttl">プログラミング学習の勉強方法を特集。挫折しない秘訣とは？</h2>
-          <div class="card__content-tag">
-            <p class="card__content-tag-item">#COACHTECH</p>
-            <p class="card__content-tag-item card__content-tag-item--last">2021/01/01</p>
-          </div>
-        </div>
-    <div class="card__img">
-      <img src="img/img/blog__first.jpg" alt="blog">
-      <p>blog</p>
+  </div>
+    <div class="card__content">
+      <div class="card__img">
+        <img src="img/img/blog__first.jpg" alt="blog">
+        <p>blog</p>
       </div>
-        <div class="card__content">
-          <h2 class="card__content-ttl">プログラミング学習の勉強方法を特集。挫折しない秘訣とは？</h2>
-          <div class="card__content-tag">
-            <p class="card__content-tag-item">#COACHTECH</p>
-            <p class="card__content-tag-item card__content-tag-item--last">2021/01/01</p>
-          </div>
-        </div>
-    <div class="card__img">
-      <img src="img/img/blog__first.jpg" alt="blog">
-      <p>blog</p>
+      <h2 class="card__content-ttl">プログラミング学習の勉強方法を特集。挫折しない秘訣とは？</h2>
+      <div class="card__content-tag">
+        <p class="card__content-tag-item card__content-tag-item--last">2021/01/01</p>
+        <p class="card__content-tag-item">#COACHTECH</p>
       </div>
-      <div class="card__content">
-        <h2 class="card__content-ttl">プログラミング学習の勉強方法を特集。挫折しない秘訣とは？</h2>
-        <div class="card__content-tag">
-          <p class="card__content-tag-item">#COACHTECH</p>
-          <p class="card__content-tag-item card__content-tag-item--last">2021/01/01</p>
-        </div>
+    </div>
+    <div class="card__content">
+      <div class="card__img">
+        <img src="img/img/blog__first.jpg" alt="blog">
+        <p>blog</p>
       </div>
+      <h2 class="card__content-ttl">プログラミング学習の勉強方法を特集。挫折しない秘訣とは？</h2>
+      <div class="card__content-tag">
+        <p class="card__content-tag-item card__content-tag-item--last">2021/01/01</p>
+        <p class="card__content-tag-item">#COACHTECH</p>
+      </div>
+    </div>
   </div>   
     <div class="box">
       <a href="#">一覧ページへ</a>
@@ -132,6 +156,11 @@
       </div>
     </div>
   </div>
-  <a class="practice_btn">お問い合わせ</a>
-</body>
+  <div class="last">
+    <div class="v_line_fix"></div>
+    <a class="practice_btn">お問い合わせ</a> 
+    <footer>
+      <p>Copyright&copy; estra, inc All Rights Reserved. </p>
+    </footer>
+  </div>
 </html>

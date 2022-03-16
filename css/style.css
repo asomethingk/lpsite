@@ -2,6 +2,7 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -11,6 +12,7 @@ a {
   background-color: #fff;
   color: #a9a9a9;
 }
+
 .header-ttl {
   font-size: 24px;
   width: 80px;
@@ -44,21 +46,59 @@ a {
 
 .line {
   position: absolute;
-  top: 50%;
-  left: 20%;
-  font-size: 50px;
+  top: 20%;
+  left: 30%;
+  font-size: 60px;
+  font-family: 'Indie Flower', cursive;
+  color: #ff1493;
+}
+
+span{
+  color: #20B2AA;
+}
+
+p.lead {
+  position: absolute;
+  top: 55%;
+  left: 30%;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff1493;
+}
+
+p.word{
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  font-size: 15px;
+  color: #888888;
+}
+
+.list {
+  width: 600px;
+  margin: auto;
+  color: #888888;
+}
+
+p.text{
+  font-family: 'Indie Flower', cursive;
+  color: #ff1493;
+  font-weight: bolder;
+}
+
+h2.text{
+  color: #888888;
 }
 
 ul {
-  width: 700px;
+  border-color: #888888;
 }
 
 li {
   display: flex;
   padding: 15px;
-  border-bottom: 1px solid #000;
-}
-.day {
+  border-bottom: 1px solid #888888;
+  border-top: 1px #888888;
 }
 
 .label {
@@ -70,13 +110,11 @@ li {
   font-size: small;
 }
 
-.text {
-}
-
-#container {
+.container {
   display: grid;
   grid-template-rows: 150px 150px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  width: 1000px;
   margin: 0 auto;
 }
 
@@ -89,6 +127,7 @@ li {
 .box1 img {
   height: 100px;
   width: 100px;
+  margin: auto;
 }
 
 .box1 text {
@@ -96,24 +135,39 @@ li {
 }
 
 .box2 {
-  grid-column: 2/4;
+  grid-column: 2/2;
   grid-row: 1/2;
   background: #ff69b4;
 }
 
+
+.box2 img {
+  height: 100px;
+  width: 100px;
+  margin: auto;
+}
+
 .box3 {
-  grid-column: 2/4;
+  grid-column: 2/2;
   grid-row: 2/3;
   background: #db7093;
 }
 
+
+.box3 img {
+  height: 100px;
+  width: 100px;
+  margin: auto;
+}
+
+
 .card {
   display: flex;
+  border-radius: 20px;
 }
 
 .card__img {
-  width: 30%;
-  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  width: auto;
   position: relative;
 }
 
@@ -208,18 +262,22 @@ table th {
 
 .photo {
   display: flex;
-  margin: 0 auto;
-  max-width: 500px;
+  margin:auto;
 }
 
 .interview_img {
-  width: 250px; /* 箱の大きさ調整 */
+  
 }
 
 .recruit_img {
-  width: 250px; /* 箱の大きさ調整 */
 }
 
+.v_line_fix {
+  margin: auto;
+  width: 3px;
+  height: 50px;
+  background-color: #c71585;
+}
 .practice_btn {
   width: 200px;
   padding: 10px 0;
@@ -230,4 +288,9 @@ table th {
   box-shadow: 0 5px 0 rgba(255, 0, 0, 0.2);
   margin: 100px auto 0;
   display: block;
+}
+
+footer {
+  text-align: center;
+  background-color:#D3D3D3;
 }
