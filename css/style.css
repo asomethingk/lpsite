@@ -49,12 +49,12 @@ a {
   top: 20%;
   left: 30%;
   font-size: 60px;
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
   color: #ff1493;
 }
 
-span{
-  color: #20B2AA;
+span {
+  color: #20b2aa;
 }
 
 p.lead {
@@ -66,7 +66,7 @@ p.lead {
   color: #ff1493;
 }
 
-p.word{
+p.word {
   position: absolute;
   top: 60%;
   left: 30%;
@@ -77,28 +77,32 @@ p.word{
 .list {
   width: 600px;
   margin: auto;
+  margin-bottom: 10px;
   color: #888888;
+
+  border-bottom: #888888;
 }
 
-p.text{
-  font-family: 'Indie Flower', cursive;
+p.text {
+  font-family: "Indie Flower", cursive;
   color: #ff1493;
   font-weight: bolder;
 }
 
-h2.text{
+h2.text {
   color: #888888;
+  margin: 10px 10px;
 }
 
-ul {
+.new-item {
   border-color: #888888;
+  border-top: 1px solid #888888;
+  border-bottom: 1px solid #888888;
 }
 
 li {
   display: flex;
   padding: 15px;
-  border-bottom: 1px solid #888888;
-  border-top: 1px #888888;
 }
 
 .label {
@@ -110,12 +114,27 @@ li {
   font-size: small;
 }
 
+.technology {
+  background-color: #dcdcdc;
+}
+
+.technology img {
+  display: flex;
+  width: 400px;
+  height: 200px;
+}
+
+.technology text-first {
+  color: #888888;
+}
+
 .container {
   display: grid;
   grid-template-rows: 150px 150px;
   grid-template-columns: 1fr 1fr;
   width: 1000px;
-  margin: 0 auto;
+  margin: auto;
+  color: #ffffff;
 }
 
 .box1 {
@@ -130,16 +149,11 @@ li {
   margin: auto;
 }
 
-.box1 text {
-  tex
-}
-
 .box2 {
   grid-column: 2/2;
   grid-row: 1/2;
   background: #ff69b4;
 }
-
 
 .box2 img {
   height: 100px;
@@ -153,13 +167,11 @@ li {
   background: #db7093;
 }
 
-
 .box3 img {
   height: 100px;
   width: 100px;
   margin: auto;
 }
-
 
 .card {
   display: flex;
@@ -262,11 +274,10 @@ table th {
 
 .photo {
   display: flex;
-  margin:auto;
+  margin: auto;
 }
 
 .interview_img {
-  
 }
 
 .recruit_img {
@@ -292,5 +303,5 @@ table th {
 
 footer {
   text-align: center;
-  background-color:#D3D3D3;
+  background-color: #d3d3d3;
 }
