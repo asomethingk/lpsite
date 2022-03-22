@@ -152,28 +152,22 @@ h2.text1 {
 }
 
 .s-container {
-  position: relative;
   height: 300px;
   width: 80%;
   max-width: 1000px;
   margin: 0 auto;
+  padding-bottom: 50px;
 }
 
 p.text-service {
-font-family: "Indie Flower", cursive;
-color: #ff1493;
-font-weight: bolder;
-position: absolute;
-left: 250px;
+  font-family: "Indie Flower", cursive;
+  color: #ff1493;
+  font-weight: bolder;
 }
 
-h\2.text-service {
-color: #888888;
-margin: 10px 10px;
-padding-bottom: 20px;
-position: absolute;
-left: 250px;
-top: 10px;
+h2.text-service {
+  color: #888888;
+  padding-bottom: 20px;
 }
 
 .service {
@@ -245,10 +239,28 @@ top: 10px;
   right: 100px;
 }
 
+.blog__content {
+  width: 100%;
+  background-color: #dcdcdc;
+}
+
+p.text-blog {
+  font-family: "Indie Flower", cursive;
+  color: #ff1493;
+  font-weight: bolder;
+}
+
+h2.text-blog {
+  color: #888888;
+  margin: 10px 10px;
+}
+.practice__card {
+  margin: 0 auto;
+}
+
 .flex__item {
   display: flex;
-  padding-top: 30px;
-  background-color: #dcdcdc;
+  padding-top: 50px;
 }
 
 .practice__card {
@@ -302,6 +314,7 @@ top: 10px;
 }
 
 .box {
+  width: 300px;
   margin: 0 auto;
 }
 
@@ -322,10 +335,7 @@ top: 10px;
 table {
   width: 60%;
   border-collapse: collapse;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  margin: 0 auto;
 }
 
 p.company {
@@ -333,15 +343,15 @@ p.company {
   color: #ff1493;
   font-weight: bolder;
   padding-top: 10px;
-  position: absolute;
-  left: 300px;
+  width: 60%;
+  margin: 0 auto;
 }
 
 h2.company {
   color: #888888;
   margin: 10px 10px;
-  position: absolute;
-  left: 300px;
+  width: 60%;
+  margin: 0 auto;
 }
 
 table th,
@@ -358,6 +368,11 @@ table th {
   padding-top: 30px;
   padding-bottom: 30px;
   display: flex;
+}
+
+.last {
+  margin: auto;
+  padding-top: 20px;
 }
 
 .recruit_img,
@@ -400,11 +415,6 @@ table th {
   padding: 0;
 }
 
-.last {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
 .last-line {
   text-align: center;
 }
@@ -414,15 +424,17 @@ table th {
   height: 30px;
   background-color: #c71585;
 }
+
 .practice_btn {
   width: 200px;
   padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: #fff;
   border-radius: 30px;
   background: linear-gradient(90deg, #ff1493, #c71585);
   text-align: center;
-  margin: 100px auto 0;
-  display: block;
+  margin: 0 auto;
 }
 
 p.footer {
