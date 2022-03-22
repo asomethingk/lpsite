@@ -126,10 +126,10 @@ li {
 .tech-container {
   text-decoration: #888888;
   height: 300px;
-  margin-top: 30px;
-  margin-bottom: 30px;
   width: 80%;
   margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 p.text1 {
@@ -254,6 +254,8 @@ h2.text-service {
 .blog__content {
   width: 80%;
   margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 p.text-blog {
