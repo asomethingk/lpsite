@@ -116,8 +116,11 @@ li {
   font-size: small;
 }
 
-.tech-container {
+.bg-gray {
   background-color: #dcdcdc;
+}
+
+.tech-container {
   text-decoration: #888888;
   height: 300px;
   margin-top: 30px;
@@ -142,7 +145,7 @@ h2.text1 {
 
 .tech-text {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   color: #888888;
   font-weight: bold;
@@ -156,7 +159,6 @@ h2.text1 {
 .s-container {
   height: 300px;
   width: 80%;
-  max-width: 1000px;
   margin: 0 auto;
   padding-bottom: 50px;
 }
@@ -241,10 +243,13 @@ h2.text-service {
   right: 100px;
 }
 
+.bg-gray2 {
+  background-color: #dcdcdc;
+}
+
 .blog__content {
   width: 80%;
   margin: 0 auto;
-  background-color: #dcdcdc;
 }
 
 p.text-blog {
@@ -424,7 +429,7 @@ table th {
   text-align: center;
 }
 .v_line_fix {
-  margin: auto;
+  margin: 20px 50%;
   width: 3px;
   height: 30px;
   background-color: #c71585;
